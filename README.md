@@ -3,12 +3,12 @@ A demo about using LEGO EV3 MicroPython to control a LEGO Train with multiple pB
 
 The 'main.py' script works in the LEGO EV3  MicroPyhton environment.
 
-It requires one or more EV3 pBricks with a medium motor connected to (output) Port.A and
-an ultrasonic sensor conencted to (input) Port.S1.
-
-It also requires a Wi-FI USB dongle and a proper connection to Wi-Fi network.
-
-Since we are using MQTT protocol to transfer messages over the network we also need a MQTT broker.
+It requires:
++ one or more EV3 pBricks with a medium motor connected to (output) Port.A and
+an ultrasonic sensor connected to (input) Port.S1.
++ a Wi-Fi USB dongle
++ a proper connection to Wi-Fi network
++ a MQTT broker since we are using MQTT protocol to transfer messages over the network
 
 Other MQTT clients can also participate.
 
