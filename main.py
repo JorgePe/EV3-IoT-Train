@@ -1,7 +1,8 @@
 #!/usr/bin/env pybricks-micropython
 
-##
-# Author: Jorge Pereira (C)2019
+__author__ = 'Jorge Pereira'
+__copyright__ = 'Copyright 2019, Jorge Pereira'
+__license__ = 'MIT'
 
 from pybricks import ev3brick as brick
 from pybricks.ev3devices import Motor, UltrasonicSensor
