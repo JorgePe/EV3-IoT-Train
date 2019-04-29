@@ -1,5 +1,8 @@
 #!/usr/bin/env pybricks-micropython
 
+##
+# Author: Jorge Pereira (C)2019
+
 from pybricks import ev3brick as brick
 from pybricks.ev3devices import Motor, UltrasonicSensor
 from pybricks.parameters import Port, Button, Stop
