@@ -5,13 +5,13 @@ from pybricks.ev3devices import Motor, UltrasonicSensor
 from pybricks.parameters import Port, Button, Stop
 from pybricks.tools import print, wait
 
-# will use two extra MicroPython libraries:
+# using two extra MicroPython libraries:
 # 'umqtt' for MQTT messages between different EV3 through an external broker
 from umqtt.robust import MQTTClient
 # 'os' to identify the hostname of each EV3
 import os
 
-# Setup:
+# Scenario: LEGO IoT Train
 # The Train uses a 4DBrix WiFi Controller
 # Two EV3 work simultaneously as LEFTMOST and RIGHMOST Masters
 # - one ultrasonic sensor on Input 1 ('Port.S1') to prevent collision
