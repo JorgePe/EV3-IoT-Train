@@ -13,7 +13,7 @@ import os
 
 # Scenario: LEGO IoT Train
 # The Train uses a 4DBrix WiFi Controller
-# Two EV3 work simultaneously as LEFTMOST and RIGHMOST Masters
+# Two EV3 work simultaneously as LEFTMOST and RIGHTMOST Masters
 # - one ultrasonic sensor on Input 1 ('Port.S1') to prevent collision
 # - one medium motor on Output A ('Port.A') to choose the Train's speed
 # other MQTT clients can also participate
@@ -30,7 +30,7 @@ SETTLE = 250         # time (ticks) for the user to change motor position before
                      # considering it done (empyrical)
 
 # Hostnames
-RIGHMOST = 'iota'
+RIGHTMOST = 'iota'
 LEFTMOST = 'alpha'
 
 us = UltrasonicSensor(Port.S1)
@@ -44,12 +44,12 @@ m.run_target(MOTORSpeed,round(INITSpeed*SCALE), Stop.COAST)   # show initial spe
 
 
 # Possible hostnames - use your own
-RIGHMOST = 'iota'
+RIGHTMOST = 'iota'
 LEFTMOST = 'alpha'
 
 # get hostname to use as MQTT_ClientID and decide roles
 # LEFTMOST should be at LEFT or F extreme
-# RIGHMOST should be at RIGHT or B extreme
+# RIGHTMOST should be at RIGHT or B extreme
 
 os.system('hostname > /dev/shm/hostname.txt')
 file = open('/dev/shm/hostname.txt', 'r')
@@ -62,8 +62,8 @@ os.system('rm /dev/shm/hostname.txt')
 # computer or a Raspberry Pi or even another EV3 running ev3dev (already installed);
 # or can use public brokers available on the Internet but be carefull that all messages
 # can be read by others
-#MQTT_Broker = '192.168.1.87'
-MQTT_Broker = '10.26.10.127'
+MQTT_Broker = '192.168.1.87'
+#MQTT_Broker = '10.26.10.127'
 #MQTT_Broker = 'test.mosquitto.org'
 # we use 5 topics:
 MQTT_Topic_Status = 'JorgePe/Status'         # for debug only
