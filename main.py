@@ -33,10 +33,6 @@ TOLERANCE = 4        # acceptable tolerance when reading motor position
 SETTLE = 250         # time (ticks) for the user to change motor position before 
                      # considering it done (empyrical)
 
-# Hostnames
-RIGHTMOST = 'iota'
-LEFTMOST = 'alpha'
-
 us = UltrasonicSensor(Port.S1)
 m = Motor(Port.A)
 
