@@ -22,4 +22,10 @@ but be aware that every message exchanged there will be public and others can (a
 You can install 'mosquitto' on your computer and run your own broker. You can even use another EV3 running
 'ev3dev' as your broker as available images (including LEGO version) already include 'mosquitto'.
 
-More details and a video demonstration soon.
+More details soon.
+
+For now, two demo videos:
+
++ https://youtu.be/ISHDHECn1Ps
+
++ https://youtu.be/tcXRyngNJtU
