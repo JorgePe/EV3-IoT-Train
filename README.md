@@ -29,3 +29,5 @@ For now, two demo videos:
 + https://youtu.be/ISHDHECn1Ps
 
 + https://youtu.be/tcXRyngNJtU
+
+The whole project is beeing explained at my blog: https://ofalcao.pt/blog/series/lego-iot-train
