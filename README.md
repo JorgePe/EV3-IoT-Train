@@ -10,7 +10,8 @@ an ultrasonic sensor connected to (input) Port.S1.
 + a proper connection to Wi-Fi network
 + a MQTT broker since we are using MQTT protocol to transfer messages over the network
 
-Other MQTT clients can also participate.
+Other MQTT clients can also participate. If you want to use an Android phone or tablet I included a short
+explanation of my own [LEGO IoT Train dashboard](https://github.com/JorgePe/EV3-IoT-Train/blob/master/mqtt-dash/README.md).
 
 For the script to work we need to set an unique hostname for each EV3 on the network.
 This is easy to make from Visual Studio Code using the EV3DEV Device Browser plugin -
