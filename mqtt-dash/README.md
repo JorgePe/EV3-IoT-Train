@@ -1,6 +1,10 @@
 The EV3 IoT Train Dashboard
 
-I like to use ['MQTT Dash'](https://play.google.com/store/apps/details?id=net.routix.mqttdash) to create nice MQTT dashboards on my Android devices. It's very easy to use and offers several types of widgets that suit my needs.
+I like to use ['MQTT Dash'](https://play.google.com/store/apps/details?id=net.routix.mqttdash) to create nice
+MQTT dashboards on my Android devices. It's very easy to use and offers several types of widgets that suit my
+needs. It also works fine with my 'mosquitto' brokers (on my laptop running Ubuntu linux, on my EV3 running
+ev3dev and also 'test.mosquitto.org'). The only feature that I really miss is an "export/import" option so I
+would not need to recreate it when I switch to another Android device.
 
 For my EV3 LEGO IoT Train dashboard I added 5 widgets:
 
